@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import About from "./components/About"
 import Footer from "./components/Footer"
-import Banner from "./components/Banner"
+// import Banner from "./components/Banner"
 // import NavbarX from "./components/NavbarX"
 
 let navLinks = [
@@ -87,7 +87,7 @@ class App extends React.Component {
         <About />
         <Main skills={skills} head="Skills"/>
         <Footer />
-        <Banner className="video" videoUrl = {this.state.videoUrl} type =   {this.state.type}/>
+        {/* <Banner className="video" videoUrl = {this.state.videoUrl} type =   {this.state.type}/> */}
       </div>
     )
   }

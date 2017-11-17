@@ -1,14 +1,14 @@
-import React from "react";
-import "./Banner.css";
-
-let Video = (props) => {
-  return (
-    <video className="video" autoPlay loop >
-      <source src={props.videoUrl}  type={props.type} />
-    </video>
-  );
-}
-export default Banner;
+// import React from "react";
+// import "./Banner.css";
+//
+// let Video = (props) => {
+//   return (
+//     <video className="video" autoPlay loop >
+//       <source src={props.videoUrl}  type={props.type} />
+//     </video>
+//   );
+// }
+// export default Banner;
 
 
 // class App extends React.Component {
