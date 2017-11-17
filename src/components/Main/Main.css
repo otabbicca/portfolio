@@ -1,0 +1,29 @@
+.skills {
+  border: 8px solid #eee;
+  width: 250px !important;
+  height: 125px;
+  /*background-size: cover;*/
+  background-position:top;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-top: 2vh;
+  position: relative;
+  padding: 0 !important;
+  /*margin-right: 5px;*/
+  border-radius: 60%;
+}
+
+.row {
+  width: 60%;
+  margin: auto;
+}
+
+.skills p {
+  width: 100%;
+  color: gray;
+  /*background-color: rgba(252,197,77, 0.5);*/
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+}

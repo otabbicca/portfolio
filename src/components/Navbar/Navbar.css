@@ -1,0 +1,13 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 5vh; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 99;
+}
+
+.adikra2 {
+  margin-left: -10px;
+  margin-right: 5px;
+}
